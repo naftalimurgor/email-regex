@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/email-regexp.svg)](https://badge.fury.io/js/email-regexp)
 # email-regexp
 
 A Regular expression for validating email addresses that match 
