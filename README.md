@@ -23,6 +23,7 @@ const EmailRegex = require('email-regexp');
 
 console.log(EmailRegex.isValid('nmurgor@gmail.com')) // => true
 console.log(EmailRegex.isValid('nmurgor..@gmail.com')) // => false
+console.log(EmailRegex.isValid('FOO@MACHINE.COM')) // => false, uppercase
 
 ```
 ## ES6 module
@@ -32,6 +33,7 @@ import EmailRegex from 'email-regexp'
 
 console.log(EmailRegex.isValid('nmurgor@gmail.com')) // => true
 console.log(EmailRegex.isValid('nmurgor..@gmail.com')) // => false
+console.log(EmailRegex.isValid('FOO@MACHINE.COM')) // => false, uppercase
 
 ```
 # api
