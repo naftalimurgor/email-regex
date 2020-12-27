@@ -29,7 +29,6 @@ module.exports = {
   plugins: [
     new copyWebpackPlugin({
       patterns: [
-        { from: './package.json', to: './' },
         {from: 'README.md', to:'./'}
     ]
     }),
