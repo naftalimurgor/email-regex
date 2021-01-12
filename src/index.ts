@@ -1,4 +1,4 @@
-export default class EmailRegexp {
+class EmailRegexp {
 
     /**
      *
@@ -6,10 +6,12 @@ export default class EmailRegexp {
      * @static
      * @param {string} email
      * @returns {boolean}
-     * @memberof Email
+     * @memberof EmailRegexp
      */
     static isValid(emailAddress: string): boolean {
         return /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailAddress)
     }
 
 }
+
+export = EmailRegexp
