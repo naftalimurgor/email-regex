@@ -1,33 +1,34 @@
-[![npm version](https://badge.fury.io/js/email-regexp.svg)](https://badge.fury.io/js/email-regexp)  ![npm](https://img.shields.io/npm/dw/email-regexp)
+[![npm version](https://badge.fury.io/js/email-regexp.svg)](https://badge.fury.io/js/email-regexp)
+
 # email-regexp
 
-Regular expressions for validating regular email addresses.  
+A regular expression for validating regular email addresses.  
 
-## usage
+## Usage
 
-Install package
-
+## Installation
+With npm:
 ```bash
 npm i email-regexp
 ```
-
+Using yarn package manager:
 ```bash
 yarn add email-regexp
 ```
 
-##  commonjs module
-
+##  Commonjs module
+Using Commonjs module pattern:
 ```javascript
 const EmailRegex = require('email-regexp');
 
 console.log(EmailRegex.isValid('nmurgor@gmail.com')) // => true
 console.log(EmailRegex.isValid('nmurgor..@gmail.com')) // => false
-console.log(EmailRegex.isValid('FOO@MACHINE.COM')) // => false, uppercase
 
 
 ```
-## ES6 module
 
+## ES6 module
+Using ES6 module pattern:
 ```javascript
 import EmailRegex from 'email-regexp'
 
@@ -38,7 +39,6 @@ console.log(EmailRegex.isValid('FOO@MACHINE.COM')) // => false, uppercase
 ```
 # api
 ```typescript
-
  EmailRegex.isValid(emailAddress: string) => boolean
 ```
 
