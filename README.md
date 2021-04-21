@@ -2,7 +2,8 @@
 
 # email-regexp
 
-A regular expression for validating regular email addresses.  
+A tiny JavaScript library for validating  email addresses. 
+It's Gmail safe and supports  most TLDs.  
 
 ## Usage
 
