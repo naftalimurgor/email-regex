@@ -3,14 +3,14 @@ name: Pull request workflow
 on: [pull_request]
 
 jobs:
-  installs dependencies:
+  installs-dependencies:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - run: npm install
 
-  runs unit test cases:
+  run-unit-test-cases:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

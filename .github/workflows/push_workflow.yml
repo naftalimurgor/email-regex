@@ -3,14 +3,14 @@ name: Push workflow
 on: [push]
 
 jobs:
-  installs dependencies:
+  installs-dependencies:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - run: npm install
 
-  runs unit test cases:
+  runs-unit-test-cases:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
