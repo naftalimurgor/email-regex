@@ -2,6 +2,8 @@
 
 # email-regexp
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P0HEF2O)
+
 A tiny JavaScript library for validating  email addresses. 
 It's Gmail safe and supports  most TLDs.  
 
