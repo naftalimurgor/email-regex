@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/email-regexp.svg)](https://badge.fury.io/js/email-regexp)
+[![npm version](https://badge.fury.io/js/email-regexp.svg)](https://badge.fury.io/js/email-regexp) ![npm](https://img.shields.io/npm/dw/email-regexp?style=flat-square)
 
 # email-regexp
 
